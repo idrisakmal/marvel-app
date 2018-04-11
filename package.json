@@ -1,0 +1,23 @@
+{
+  "name": "marvel-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "bulma": "^0.6.2",
+    "node-sass": "^4.8.3",
+    "parcel-bundler": "^1.7.0"
+  },
+  "scripts": {
+    "start": "parcel public/index.html",
+    "watch": "parcel watch public/index.html"
+  }
+}
